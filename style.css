@@ -138,6 +138,47 @@ li.nav-bar-li{
 }
 
 
+.schedule-table{
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;  
+}
+
+th, td {
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px 10px 5px 10px;
+  text-align: center;  /*HGARR looks better*/
+}
+
+.slot-form-container{
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.slot-form-container input, .slot-form-container select{
+  height:20px;
+  outline:none;
+  padding:3px;
+  width:100%;
+}
+
+.slot-form-container label{
+  display: block;
+  margin-bottom: 5px;
+  line-height: 15px;
+}
+
+.slot-form-container button{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin-top: 15px;
+}
+
 .footer{
   font-size:1.9em;
   text-align: center;

@@ -100,7 +100,77 @@
   
   <section class="container">
     <h3>Schedule</h3>
+    <table class="schedule-table" cellpadding="0" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+        </tr>
+      <tbody>
+        <tr>
+          <td>9:00 - 11:00</td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>12:00 - 14:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>15:00 - 17:00</td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td>X</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+      </tbody>
+        
+      </thead>
+    </table>
     <h3>Schedule a Time Slot</h3>
+    <form class="slot-form" action="/register">
+    <div class="slot-form-container">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <div class="slot-form-container">
+      <label for="participants" >Number of participants</label>
+      <input type="number" id="participants" placeholder="Number of participants">
+    </div>
+    <div class="slot-form-container">
+      <label for="date">Date</label>
+      <input type="date" id="date">
+    </div>
+    <div class="slot-form-container">
+      <label for="time">Time</label>
+      <select name="time">
+        <option value="early">9:00-11:00</option>
+        <option value="mid">12:00-14:00</option>
+        <option value="late">15:00-17:00</option>
+      </select>
+    </div>
+    <div class="slot-form-container">
+      <button type="submit">Reserve your slot!</button>
+    </div>
+    
+    </form>
+
   </section>
   
   <footer class="dark-background footer">
