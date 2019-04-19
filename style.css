@@ -1,7 +1,6 @@
 /* HGR open issues 
  1. In the header the jumpers arms runs through the slogan. Should be more apart!
- 2. Jump box in Section 2 does not have the same height. Probably because text is 1 line.
-
+ 
 */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
@@ -205,9 +204,6 @@ th, td {
   float: left;
   text-align: center;  /*HGARR: Aligns text in center of all columns, like member name in Team Section.*/
 }
-.col-2{
-  widows:40%;
-}
 
 .col-3 {
   float: left;
@@ -215,8 +211,7 @@ th, td {
 }
 
 .col-middle {
-  margin-left:2.5%;
-  margin-right:2.5%;
+  margin: 0 5%
 }
 
 .clearfix {
